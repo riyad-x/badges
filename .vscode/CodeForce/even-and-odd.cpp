@@ -15,7 +15,7 @@ public:
         if (n % 2 == 0) {
             partition = n / 2;
         } else {
-            partition = (n / 2) + 1;
+            partition = (n / 2) + 1;  // Corrected partition calculation for odd n
         }
 
         if (k <= partition) {
@@ -30,7 +30,7 @@ public:
 
 int32_t main() {
     FastIO();
-    Number number_instance; 
+    Number number_instance;  // Correct class instance naming
     number_instance.num();
     return 0;
 }
